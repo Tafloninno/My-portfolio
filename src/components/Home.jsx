@@ -16,9 +16,7 @@ const Home = () => {
                         Hi, I'm Mugisha innocent
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        I’m a software developer! I can help you build a product, feature, or website. Look through
-                        some of my work and experience! If you like what you see and have a project you need
-                        coded, don’t hesitate to contact me.
+                    I’m a software developer with background in developing efficient software applications in a global market. More than 1300+ hours of experience, Strong skills include React, Redux, JavaScript, Ruby on Rails, Figma, and Animation Libraries!
                     </p>
                     <div className='my-5'>
                             
