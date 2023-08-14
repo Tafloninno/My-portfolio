@@ -26,9 +26,9 @@ const Portfolio = () => {
     { id: 3, 
       src: project2,
       text: 'A mobile web application where you can manage your budget',
-      title: 'Budget Buddy',
-      link1: 'https://buddy-4izw.onrender.com/',
-      link2: 'https://github.com/Tafloninno/budget-app'
+      title: 'Meals app',
+      link1: 'https://david-lanzz.github.io/Kanban/dist/',
+      link2: 'https://github.com/Tafloninno/Second_capstone'
     },
     { id: 4, 
       src: weatherApp, 
