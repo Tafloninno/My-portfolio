@@ -5,6 +5,8 @@ import reactImage from '../assets/experience/reactImage.png'
 import javascript from '../assets/experience/javascript.png'
 import tailwind from '../assets/experience/tailwind.png'
 import github from '../assets/experience/github.png'
+import ruby from '../assets/experience/ruby.png'
+import rails from '../assets/experience/rails.png'
 
 const Experience = () => {
 
@@ -45,13 +47,25 @@ const Experience = () => {
             src:github,
             title:'Github',
             style:'shadow-gray-400'
+        },
+        {
+            id:7,
+            src:ruby,
+            title:'Ruby',
+            style:'shadow-red-800'
+        },
+        {
+            id:8,
+            src:rails,
+            title:'Rails',
+            style:'shadow-red-600'
         }
     ]
   return (
     <div name='experience'
     className=' w-full h-screen'>
         <div className='max-w-screen-lg max-auto px-5 md:px-20 flex flex-col 
-        justify-center w-full h-full text-white'>
+        md:mt-20 w-full h-full text-white'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
                     Experience

@@ -25,7 +25,7 @@ const Portfolio = () => {
      },
     { id: 3, 
       src: project2,
-      text: 'A mobile web application where you can manage your budget',
+      text: 'Meals app is an app that consumes apis to show a list of meals.Users can also leave comments ',
       title: 'Meals app',
       link1: 'https://david-lanzz.github.io/Kanban/dist/',
       link2: 'https://github.com/Tafloninno/Second_capstone'
@@ -45,8 +45,8 @@ const Portfolio = () => {
 
   return (
     <div name='portfolio' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
+      <div className='max-w-screen-lg p-4 mx-auto flex flex-col  w-full h-full'>
+        <div className='pb-8 flex flex-col items-center'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
           <p className='py-6'>Check out some of my work right here</p>
         </div>
@@ -56,10 +56,10 @@ const Portfolio = () => {
             <div key={id} className='relative shadow-md shadow-gray-600 rounded-lg'>
               <img src={src} alt='Project Screenshot' className='rounded-md h-full' />
               <div className=" flex flex-col justify-center absolute top-0 left-0 right-0 bottom-0 bg-gray-900 bg-opacity-90 text-white p-4 opacity-0 hover:opacity-100 transition duration-300 ease-in-out">
-                {/* Additional information */}
+                
                 <p className="text-xl font-semibold mb-2">{title}</p>
                 <p className="text-sm">{text}</p>
-                {/* Buttons */}
+                
                 <div className="flex justify-center font-bold mt-4 space-x-2">
                   <button className="px-4 py-2 text-white rounded hover:text-blue-600 transition duration-300" onClick={() => goToLink(link1)}>
                     <FaEye />

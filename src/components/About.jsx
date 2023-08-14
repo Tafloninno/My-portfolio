@@ -4,20 +4,21 @@ const About = () => {
     return (
         <div 
             name='about'
-            className='h-[75vh] w-full text-white'>
-            <div className='max-w-screen-lg px-10 md:px-20 md:py-10  mx-auto flex flex-col justify-center itmes-center w-full h-full'>
+            className='w-full h-screen text-white overflow-hidden'>
+            <div className='max-w-screen-lg px-10 md:px-20 md:py-10  mx-auto flex flex-col mt-[3.5rem] itmes-center w-full h-full'>
                 <div>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
                     About
                 </p>
 
                 <p className='text-xl mt-4'>
-                    I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                My expertise in programming languages such as JavaScript, Ruby, and Ruby on Rails has been substantiated by a history of notable achievements. I have consistently demonstrated my ability to deliver exceptional results and have a proven track record to support this claim.
+            
                 </p>
                 
-                {/* <p className='text-xl mt-4'>
-                    I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-                </p> */}
+                <p className='text-xl mt-4'>
+                I have embraced the challenges and opportunities of remote work by actively engaging with individuals spanning multiple time zones. Over the past several months, I have adeptly navigated the complexities of asynchronous collaboration, seamlessly interacting with team members located in three distinct time zones: UTC-6, UTC+1, and UTC+5. This unique experience sets me apart and underscores my adaptability as a fullstack developer.
+                </p>
                 </div>
             </div>
         </div>
