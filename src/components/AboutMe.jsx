@@ -4,8 +4,8 @@ import Experience from '../components/Experience'; // Import your Experience com
 
 const AboutMe = () => {
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-20 md:gap-0 w-full h-full
-         bg-gradient-to-b from-gray-800 to-black  overflow-hidden'>
+        <div className='bg-gradient-to-b from-black to-gray-800 grid grid-cols-1 sm:grid-cols-2 gap-20 md:gap-0 w-full h-full
+          overflow-hidden'>
             <About />
             <Experience />
         </div>

@@ -7,6 +7,10 @@ import tailwind from '../assets/experience/tailwind.png'
 import github from '../assets/experience/github.png'
 import ruby from '../assets/experience/ruby.png'
 import rails from '../assets/experience/rails.png'
+import git from '../assets/experience/git.svg'
+import postgresql from '../assets/experience/postgresql.png'
+import redux from '../assets/experience/redux.png'
+import bootstrap from '../assets/experience/bootstrap.png'
 
 const Experience = () => {
 
@@ -59,7 +63,32 @@ const Experience = () => {
             src:rails,
             title:'Rails',
             style:'shadow-red-600'
-        }
+        },
+        {
+            id:9,
+            src:git,
+            title:'Git',
+            style:'shadow-orange-800'
+        },
+        {
+            id:10,
+            src:postgresql,
+            title:'postgreSQL',
+            style:'shadow-blue-100'
+        },
+        {
+            id:11,
+            src:redux,
+            title:'Redux',
+            style:'shadow-purple-900'
+        },
+        {
+            id:12,
+            src:bootstrap,
+            title:'Bootstrap',
+            style:'shadow-purple-800'
+        },
+        
     ]
   return (
     <div name='experience'
@@ -75,7 +104,7 @@ const Experience = () => {
                 </p>
             </div>
 
-            <div  className='w-full grid grid-cols-2 sm:grid-cols-3
+            <div  className='w-full grid grid-cols-3 sm:grid-cols-4
                      gap-8 text-center py-8 px-1 sm:p-0'>
                 {experience.map(({id, src, title, style}) => (
                      
