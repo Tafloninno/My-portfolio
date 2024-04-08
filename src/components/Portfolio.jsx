@@ -6,6 +6,7 @@ import math from '../assets/portfolio/math.png';
 import concert from '../assets/portfolio/concert.png';
 import { FaEye } from 'react-icons/fa';
 import { BsGithub } from 'react-icons/bs';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Portfolio = () => {
   const portfolio = [
@@ -66,7 +67,7 @@ const Portfolio = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-4 sm:px-0 overflow-hidden'>
           {portfolio.map(({ id, src, title, text, stack, link1, link2 }) => (
             <div key={id} className='relative shadow-md shadow-gray-600 rounded-lg animate-scale-up'>
-              <img src={src} alt='Project Screenshot' className='rounded-md w-full' />
+              <LazyLoadImage src={src} alt='Project Screenshot' className='rounded-md w-full' />
               <div className=" flex flex-col justify-center absolute top-0 left-0 right-0 bottom-0 bg-gray-900 bg-opacity-90 text-white p-4 opacity-0 hover:opacity-100 transition duration-300 ease-in-out">
                 
                 <p className="text-xl font-semibold mb-2">{title}</p>
