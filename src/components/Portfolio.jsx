@@ -27,10 +27,10 @@ const Portfolio = () => {
       stack: 'JavaScript, HTML, CSS'
     },
     { id: 4, 
-      src: weatherApp, 
+      src: SkyCast, 
       text: ' A weather App  using  API to display cities weather and give detail data for every city.',
       title: 'weather App',
-      link1: 'https://tafloninno.github.io/Third-Capstone-project/',
+      link1: 'https://66159969d9897b293763540f--silver-buttercream-ab2563.netlify.app/',
       link2: 'https://github.com/Tafloninno/Third-Capstone-project',
       stack: 'React, Redux, CSS, HTML'
     },
